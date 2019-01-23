@@ -4,6 +4,7 @@ def my_collect(languages)
   while i < languages.length
   speech.upcase do |languages|
   speech<< yield(languages)
+  i +=1 
 end
 speech
 end
