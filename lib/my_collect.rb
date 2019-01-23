@@ -3,7 +3,7 @@ def my_collect(languages)
   speech = []
   while i < languages.length
   my_collect(languages) do |language|
-  speech<< yield(languages)
+  speech<< yield(language)
   i +=1 
 end
 speech
