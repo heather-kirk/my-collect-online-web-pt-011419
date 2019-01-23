@@ -2,7 +2,7 @@ def my_collect(languages)
   i = 0 
   speech = []
   while i < languages.length
-  speech
+  speech.upcase do |languages|
   speech<< yield(languages)
 end
 speech
