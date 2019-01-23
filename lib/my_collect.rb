@@ -8,3 +8,5 @@ end
 speech.upcase
 end
 
+def my_collect(students)
+end
