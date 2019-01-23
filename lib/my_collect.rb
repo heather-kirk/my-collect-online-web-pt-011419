@@ -5,7 +5,7 @@ def my_collect(languages)
   speech<< yield(languages)
   speech.upcase
 end
-speech.u
+speech
 end
 
 def my_collect(students)
