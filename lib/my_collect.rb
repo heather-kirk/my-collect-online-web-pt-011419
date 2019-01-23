@@ -1,9 +1,8 @@
 def my_collect(languages)
   i = 0 
-  speech = []
+  speech.upcase = []
   while i < languages.length
   speech<< yield(languages)
-  speech.upcase
 end
 speech
 end
