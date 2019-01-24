@@ -1,10 +1,9 @@
 def my_collect(languages)
-  i = 0
+  i = 0 
   speech = []
-  while languages.length > i 
-  speech<< yield(languages[i])
-  i +=1 
+  while i < languages.length
+  speech<< yield(languages)
+  i +=1
 end
 speech
 end
-
